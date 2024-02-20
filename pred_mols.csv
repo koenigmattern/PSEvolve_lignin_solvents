@@ -1,0 +1,3 @@
+solvent name,SMILES,mol,mol wt,dumb_target,graph,Ensemble_1,Ensemble_2,Ensemble_3,Ensemble_4,Ensemble_5,GNN_prediction_lignin,sol wt percent
+hexane,CCCCCC,<rdkit.Chem.rdchem.Mol object at 0x000001962ECAE850>,86.178,,"Data(x=[6, 34], edge_index=[2, 10], edge_attr=[10, 6], y=nan)",-6.073592,-5.92815,-5.7247186,-5.784471,-5.8779902,-5.8777847,0.000815752851444739
+dioxane,C1COCCO1 ,<rdkit.Chem.rdchem.Mol object at 0x000001962ECAEB70>,88.106,,"Data(x=[6, 34], edge_index=[2, 12], edge_attr=[12, 6], y=nan)",-1.7952209,-2.000226,-2.3771312,-1.5193683,-1.7278451,-1.8839582,7.38217146774935
