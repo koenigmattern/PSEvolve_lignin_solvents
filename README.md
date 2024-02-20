@@ -40,6 +40,8 @@ The following packages are required:
 
 - RDKit >= 2021.03.1
 - networkx >= 2.6.3
+- PyTorch >= 1.8.0
+- Pytorch Geometric >= 2.0
 
 
 ## License 
