@@ -1,6 +1,8 @@
 # Machine learning-supported solvent design for lignin-first biorefineries and lignin upgrading
 
+<p align="center">
 <img src="https://github.com/koenigmattern/PSEvolve_lignin_solvents/blob/main/auxil/PSEvolve_logo.png" width="300">
+</p>
 
 PSEvolve is a genetic algorithm for molecular design (available [here](https://github.com/koenigmattern/PSEvolve) In this repo, PSEvolve was tailored for designing
 solvents with high lignin solubilities and for aldehyde-assisted fractionation.
