@@ -4,8 +4,8 @@
 <img src="https://github.com/koenigmattern/PSEvolve_lignin_solvents/blob/main/auxil/PSEvolve_logo.png" width="300">
 </p>
 
-PSEvolve is a genetic algorithm for molecular design (available [here](https://github.com/koenigmattern/PSEvolve) In this repo, PSEvolve was tailored for designing
-solvents with high lignin solubilities and for aldehyde-assisted fractionation.
+PSEvolve is a genetic algorithm for molecular design (available [here](https://github.com/koenigmattern/PSEvolve)). <br />
+In this repo, PSEvolve was tailored for designing solvents with high lignin solubilities and for aldehyde-assisted fractionation.
 
 main_lignin.py: Main file for solvent design. 
 - use group_constraints = 'AAF' for solvent design for aldehyde-assisted fractionation
@@ -23,7 +23,7 @@ get_GNN_pred.py
 How to cite this material:
 
 ```
-@Article{XXX,
+@Article{
 author ="Laura König-Mattern, Edgar I. Sancez Medina, Anastasia O. Komarova, Steffen Linke, Liisa Rihko-Struckmann, Jeremy Luterbacher, Kai Sundmacher",
 title  ="Machine learning-supported solvent design for lignin-first biorefineries and lignin upgrading",
 journal  ="Nature Chemical Engineering (submitted)",
