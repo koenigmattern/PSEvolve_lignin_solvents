@@ -43,6 +43,6 @@ The following packages are required:
 
 ## License 
 The [dataset](Trained_GNN_LC/data/butina_L.csv) containing ca. 3300 lignin solubilities was generated using COSMO-RS (COSMthermX19, BIOVIA 3Ds). <br />
-The dataset and the [GNN](Trained_GNN_LC) are licensed under [CC-BY-NC-SA 4.0](Trained_GNN_LC/LICENSE). <br />
-PSEvolve is licensed under the [MIT License](LICENSE) and is free and provided as-is. <br />
+The dataset and the [GNN](Trained_GNN_LC) are licensed under [CC-BY-NC-SA 4.0](LICENSE). <br />
+PSEvolve is licensed under the [MIT License](https://github.com/koenigmattern/PSEvolve/blob/master/LICENSE) and is free and provided as-is. <br />
 If you use any code provided in this repository please cite the original publication.
