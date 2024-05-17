@@ -595,8 +595,9 @@ def cross_over(df_pop, num_parents, num_children, max_mol_weight, group_constrai
     frag_pool = []
     for idx in selected_idxs:
         mol = df_pop.loc[idx, 'mol']
+        copy_mol = copy.deepcopy(mol)
 
-        frag_mol, flag_successful = fragmentor(mol)
+        frag_mol, flag_successful = fragmentor(copy_mol)
 
 
         if flag_successful == 1:
@@ -636,7 +637,7 @@ def cross_over(df_pop, num_parents, num_children, max_mol_weight, group_constrai
                 stability_bool = stability_checker(comb_mol)
                 if not stability_bool:
                     flag_comb_successful = 0
-            SA_score = SA.calculateScore(mol)
+            SA_score = SA.calculateScore(comb_mol)
             if SA_score > SA_max:
                 flag_comb_successful = 0
 

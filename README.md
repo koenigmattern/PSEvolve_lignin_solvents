@@ -30,6 +30,7 @@ journal  ="Chemical Engineering Journal (submitted)",
 year  ="2024"
 }
 ```
+Available as preprint [here](https://dx.doi.org/10.2139/ssrn.4796907).
 
 ## Requirements
 
